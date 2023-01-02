@@ -1,0 +1,11 @@
+.chart {
+  &_data {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 1rem;
+    border: 1px solid white;
+  }
+}
