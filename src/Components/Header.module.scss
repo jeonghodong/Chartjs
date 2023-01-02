@@ -1,0 +1,25 @@
+.Header {
+  background-color: #5a58d7;
+  padding-bottom: 40px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  & h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 25px;
+  }
+  & span {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 25px;
+  }
+}

@@ -1,4 +1,4 @@
-const data = {
+const MixedData = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
   datasets: [
     {
@@ -11,20 +11,18 @@ const data = {
     {
       type: "bar",
       label: "Dataset 2",
-      backgroundColor: "#9BA6FA",
+      backgroundColor: "rgb(255, 99, 132)",
       data: [1, 2, 3, 4, 5, 6],
-      borderColor: "#1BA5FA",
+      borderColor: "red",
       borderWidth: 2,
-      borderRadius: 15,
     },
     {
       type: "bar",
       label: "Dataset 3",
-      backgroundColor: "#6979f8",
+      backgroundColor: "rgb(75, 192, 192)",
       data: [1, 2, 3, 4, 5, 6],
-      borderRadius: 15,
     },
   ],
 };
 
-export { data };
+export { MixedData };
