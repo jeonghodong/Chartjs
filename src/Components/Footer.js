@@ -11,7 +11,7 @@ function Footer() {
       </h2>
       <ul>
         {social.map((social) => (
-          <li id={social.id}>
+          <li key={social.id}>
             <a href={social.href} target="_blank" rel="noreferrer">
               {social.icon}
             </a>
