@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "./Header.module.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className={styles.Header}>
-      <h1>LOGO</h1>
+    <header className={styles.Header}>
+      <h1>
+        <Link to="/">CHART!</Link>
+      </h1>
       <span>😀</span>
-    </div>
+    </header>
   );
 }
 

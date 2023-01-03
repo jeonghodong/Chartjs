@@ -1,0 +1,33 @@
+@import "../scss/mixin";
+
+.footer {
+  background-color: #5a58d7;
+  color: #ffffff;
+  @include flexBox;
+  flex-direction: column;
+  & h2 {
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+  }
+  & ul {
+    @include flexBox;
+    margin-top: 1rem;
+    & li {
+      margin-right: 1.5rem;
+      padding-bottom: 1rem;
+      font-size: 2vw;
+      &:nth-last-child(1) {
+        margin: 0;
+      }
+    }
+  }
+  & span {
+    font-size: 0.8vw;
+    width: 100vw;
+    background-color: #2c2b6b;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}

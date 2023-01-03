@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import DoughnutChart from "../Components/DoughnutChart";
 import MixedChart from "../Components/MixedChart";
 import PolarAreaChart from "../Components/PolarAreaChart";
 
@@ -15,6 +16,7 @@ function Home() {
         <div>
           <MixedChart />
           <PolarAreaChart />
+          <DoughnutChart />
         </div>
       )}
     </div>
