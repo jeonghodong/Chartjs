@@ -1,0 +1,10 @@
+.default {
+  width: 100%;
+  display: flex;
+  &_left {
+    width: 15%;
+  }
+  &_right {
+    width: 85%;
+  }
+}
