@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import DoughnutChart from "../Components/DoughnutChart";
-import MixedChart from "../Components/MixedChart";
-import PolarAreaChart from "../Components/PolarAreaChart";
+
+import styles from "./Home.module.scss";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -13,10 +12,8 @@ function Home() {
       {loading ? (
         <h2>Loading...</h2>
       ) : (
-        <div>
-          <MixedChart />
-          <PolarAreaChart />
-          <DoughnutChart />
+        <div className={styles.home}>
+          <h1>home</h1>
         </div>
       )}
     </div>

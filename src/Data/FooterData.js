@@ -1,5 +1,5 @@
 const text = {
-  logoName: "! T R A H C",
+  logoName: "C H A R T !",
   bottomName: "2023 Copyright CHART! All right reserved.",
 };
 
@@ -18,6 +18,11 @@ const social = [
     id: 3,
     icon: <i className="fa-brands fa-instagram"></i>,
     href: "https://www.instagram.com/",
+  },
+  {
+    id: 4,
+    icon: <i className="fa-brands fa-github"></i>,
+    href: "https://github.com/jeonghodong",
   },
 ];
 
