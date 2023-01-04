@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 8rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  &_chart {
+    width: 50%;
+  }
+}
