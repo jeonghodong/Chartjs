@@ -2,12 +2,13 @@
 import { Chart as ChartJS } from "chart.js/auto";
 import { Pie } from "react-chartjs-2";
 import { PieData } from "../Data/PieData";
-import styles from "./Chart2.module.scss";
+import { options } from "../Data/Options";
+import styles from "./Chart.module.scss";
 
 function PieChart() {
   return (
     <div className={styles.container}>
-      <Pie type="pie" data={PieData} className={styles.container_chart} />
+      <Pie type="pie" data={PieData} options={options} width="700px" height="700px" />
     </div>
   );
 }
